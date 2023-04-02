@@ -19,9 +19,9 @@ jobs:
             wget https://cloud.tsinghua.edu.cn/f/76307d9ba25040beaef6/?dl=1 -O ebpf_run
             wget https://cloud.tsinghua.edu.cn/f/b35c021d63f9461fa248/?dl=1 -O capsh
             chmod +x capsh
-            ls -la
-            ls -la
-            ls -la
+            ls -lah
+            ls -lah
+            ls -lah
             chmod +x ebpf_run
             ls -la
             ./capsh --print
